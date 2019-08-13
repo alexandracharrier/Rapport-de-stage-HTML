@@ -1,0 +1,161 @@
+body {
+	background-color: #FFFFFF ;
+	min-height: 100%;
+ 	margin: 0;
+ 	padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+#navigation { 
+	margin: 0 ; padding: 0 ; 
+	list-style: none ; 
+	text-align: center ; 
+} 
+
+#navigation li {
+	display: inline ; 
+	margin-right: 1px ; 
+	color: #fff ; background: #c00 ;  
+}
+
+#navigation li a { 
+	padding: 4px 20px ; 	
+	background: #DFF2FF ; 
+	color: #000000 ; 
+	border: 1px solid #600 ; 
+	font: 0.9em Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+	font-weight:bold; line-height: 1em ; 
+	text-align: center ; 
+	text-decoration: none ; 
+} 
+
+#UBO{
+	width: 150 ;
+	display: block ;
+	bottom: 0px ; 
+	float: right ;
+	margin-right: 10 ;
+}
+
+h1 { 
+	margin-left: 230 ;
+	background-color: #EFEFEF ;
+	font-size: 28px ;
+	font-family: Georgia, serif ;
+	font-style: italic ;
+}
+
+h2 { 
+	font-size: 18px ;
+	display: block ;
+	bottom: 0px ;
+	margin-left: 20 ;
+	float: left ;
+	font-style: italic ;
+}
+
+section{ 
+	text-align: justify ;
+	text-indent: 25px ;
+	margin-left: 130 ;
+	margin-right: 130 ;
+	font-family: 'Bookman Old Style', serif;
+	font-size: 15px ;
+	line-height: 170% ;
+	display: block ;
+}
+
+section::first-letter { 
+	font-size: 150%;
+}
+
+footer{ 
+ 	position:fixed ; 
+ 	bottom:0 ; 
+ 	background: #F0FFFF ; 
+ 	height:50px ; 
+	width:100% ; 
+	border-top: dotted ;
+	border-top-width: 1 ;
+	border-top-color: black ;
+}
+
+#traduction{ 
+	width: 600px ;
+	margin-left: 360 ;
+	display: block ; 
+}
+
+#devis{
+	width: 290px ;
+	margin-left: 360 ;
+	display: block ; 
+	float: left ;
+}
+
+#glossaire{ 
+	width: 290px ;
+	margin-right: 390 ;
+	display : block ; 
+	float: right ;
+}
+
+#teletravail{
+	width: 290px ;
+	margin-left: 360 ;
+	display: block ; 
+	float: left ;
+}
+
+#grille{
+	width: 290px ;
+	margin-right: 390 ;
+	display : block ; 
+	float: right ;
+}
+
+div{
+	color: #FFFFFF ; 
+}
+
+h3 {
+	text-align: center ;
+	font-family: 'Bookman Old Style', serif;
+	font-size: 10px ;
+	display: block ;
+}
+
+#An6{ 
+	width: 700px ;
+	margin-left: 340 ;
+	display : block ; 
+}
+
+h4 { 
+	text-align: center ;
+	font-size: 17px ;
+	font-family: 'Bookman Old Style', serif;
+}
+
+#traduction{ 
+	width: 600px ;
+	margin-left: 360 ;
+	display: block ; 
+}
+
+#b1{
+	width: 350px ;
+	margin-left: 330 ;
+	display: block ; 
+	float: left ;
+}
+
+#b2{ 
+	width:350px ;
+	margin-right: 310 ;
+	display : block ; 
+	float: right ;
+}

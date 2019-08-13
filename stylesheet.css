@@ -1,0 +1,113 @@
+body {
+	background-color: #FFFFFF ;
+	min-height: 100%;
+ 	margin: 0;
+ 	padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+#navigation { 
+	margin: 0 ; padding: 0 ; 
+	list-style: none ; 
+	text-align: center ; 
+} 
+
+#navigation li {
+	display: inline ; 
+	margin-right: 1px ; 
+	color: #fff ; background: #c00 ;  
+}
+
+#navigation li a { 
+	padding: 4px 20px ; 	
+	background: #DFF2FF ; 
+	color: #000000 ; 
+	border: 1px solid #600 ; 
+	font: 0.9em Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+	font-weight:bold; line-height: 1em ; 
+	text-align: center ; 
+	text-decoration: none ; 
+} 
+
+h1 {
+	color: #00000 ;
+	text-align: center ;
+	font-size: 100px ;
+	font-family: American typewriter, serif ;
+	line-height : 18pt ; 
+	text-shadow:#8FFBFF 0 -1px 0,
+	#DFF2FF 2px 2px 0,
+	#333 5px 5px 10px;color:#00000;
+	background-color:#fff;
+ 
+}
+
+div { 
+	color: #000000 ;
+	text-align: center ;
+	font-size: 27px ;
+	font-family: American typewriter, serif ;
+	font-style: italic ;
+	line-height: 15pt ;
+	background-color: #EDEDED ;
+	font-weight: bold ;
+}
+
+p {
+	font-size: 17px ;
+	line-height: 30pt ;
+	font-style: normal ;
+}
+
+#UBO{
+	width: 150 ;
+	display: block ;
+	float: right ;
+	margin-right: 10 ;
+}
+
+#TCF{
+	width: 500 ;
+	display: block ;
+	margin-left: 450 ;
+}
+
+h2 { 
+	font-size: 18px ;
+	display: block ;
+	bottom: 0px ;
+	margin-left: 20 ;
+	float: left ;
+	font-style: italic ;
+}
+
+section{ 
+	column-count: 2 ;
+	column-gap: 100px ;
+	column-rule: 2px solid;
+	text-align: justify ;
+	text-indent: 25px ;
+	margin: 60 ;
+	font-family: 'Bookman Old Style', serif;
+	font-size: 11px ;
+	font-style: normal ;
+	line-height: 170% ;
+}
+
+h3::first-letter { 
+	font-size: 200%;
+}
+
+footer{ 
+ 	position:fixed ; 
+ 	bottom:0 ; 
+ 	background: #F0FFFF ; 
+ 	height:50px ; 
+	width:100% ; 
+	border-top: dotted ;
+	border-top-width: 1 ;
+	border-top-color: black ;
+}

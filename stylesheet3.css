@@ -1,0 +1,165 @@
+body {
+	background-color: #FFFFFF ;
+	min-height: 100%;
+ 	margin: 0;
+ 	padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+#navigation { 
+	margin: 0 ; padding: 0 ; 
+	list-style: none ; 
+	text-align: center ; 
+} 
+
+#navigation li {
+	display: inline ; 
+	margin-right: 1px ; 
+	color: #fff ; background: #c00 ;  
+}
+
+#navigation li a { 
+	padding: 4px 20px ; 	
+	background: #DFF2FF ; 
+	color: #000000 ; 
+	border: 1px solid #600 ; 
+	font: 0.9em Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+	font-weight:bold; line-height: 1em ; 
+	text-align: center ; 
+	text-decoration: none ; 
+} 
+
+#UBO{
+	width: 150 ;
+	display: block ;
+	bottom: 0px ; 
+	float: right ;
+	margin-right: 10 ;
+}
+
+h1 { 
+	margin-left: 230 ;
+	background-color: #EFEFEF ;
+	font-size: 28px ;
+	font-family: Georgia, serif ;
+	font-style: italic ;
+}
+
+
+h2 { 
+	font-size: 18px ;
+	display: block ;
+	bottom: 0px ;
+	margin-left: 20 ;
+	float: left ;
+	font-style: italic ;
+}
+
+footer{ 
+ 	position:fixed ; 
+ 	bottom:0 ; 
+ 	background: #F0FFFF ; 
+ 	height:50px ; 
+	width:100% ; 
+	border-top: dotted ;
+	border-top-width: 1 ;
+	border-top-color: black ;
+}
+
+h3 {
+	text-align: center ;
+	font-family: 'Bookman Old Style', serif;
+	font-size: 10px ;
+	display: block ;
+}
+
+section{ 
+	text-align: justify ;
+	text-indent: 25px ;
+	margin-left: 130 ;
+	margin-right: 130 ;
+	font-family: 'Bookman Old Style', serif;
+	font-size: 15px ;
+	line-height: 170% ;
+	display: block ;
+	color: 'black' ;
+}
+
+section::first-letter { 
+	font-size: 150%;
+}
+
+h4{ 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px ;
+	margin-left: 190 ;
+	display: block ; 
+	text-decoration: underline ;
+}
+
+#An1Source{ 
+	width: 570px ;
+	margin-left: 102 ;
+	display: block ; 
+	float: left ;
+}
+
+#An1Trad{
+	width: 570px ;
+	margin-right: 102 ;
+	display: block ; 
+	float: right ;
+}
+
+#An3Finale{
+	width: 570px ;	
+	margin-left: 400 ;
+	display: block ;
+}
+
+div{
+	clear: both ; 
+	color: #FFFFFF ;
+}
+
+.illustration {
+	display: table;
+	width: 200px;
+	float: right;
+	color: 'black' ;
+}
+
+table {
+	table-layout: fixed ;
+	width: 90% ;
+	border-collapse: collapse ;
+	border: 3px solid black ;
+}
+
+.tabcenter{
+   margin-left:auto;
+   margin-right:auto;
+}
+
+td {
+	padding: 20px ;
+	border: 1px solid black ;
+	text-align: justify ;
+	text-indent: 25px ;
+}
+
+th {
+	text-align: center ;
+	padding: 15px ;
+	background: #F0FFFF ; 
+}
+
+h5 {
+	text-align: center ;
+	font-family: 'Bookman Old Style', serif;
+	font-size: 14px ;
+	display: block ;
+}
